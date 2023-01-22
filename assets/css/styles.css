@@ -30,12 +30,31 @@ button:hover {
   background-color: #8570a5;
 }
 
+.table-highlight {
+  background-color: #f5f5f5;
+  padding: 1rem;
+}
+
+
 .choices button {
   display: block;
 }
 
+.choices button:hover {
+  background-color: #8570a5 !important;
+}
+
+.choice-btn {
+  margin: 10px;
+  font-size: 25px !important;
+}
+
 input[type="text"] {
   font-size: 100%;
+  border-radius: 5px;
+  padding: 7px 20px;
+  margin: 10px 20px;
+  border: 1px solid #ccc;
 }
 
 ol {
@@ -55,7 +74,7 @@ li:nth-child(odd) {
 
 .wrapper {
   margin: 100px auto 0 auto;
-  max-width: 600px;
+  max-width: 80vh;
 }
 
 .hide {
@@ -64,12 +83,6 @@ li:nth-child(odd) {
 
 .start {
   text-align: center;
-}
-
-.scores {
-  position: absolute;
-  top: 10px;
-  left: 10px;
 }
 
 .feedback {
@@ -83,6 +96,34 @@ li:nth-child(odd) {
 
 .timer {
   position: absolute;
-  top: 10px;
+  top: 5rem;
   right: 10px;
+  font-size: 1.4rem;
+  color: #7352a5;
+}
+
+.score {
+  position: absolute;
+  top: 7rem;
+  right: 10px;
+  font-size: 1.4rem;
+  color: #704da5;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.my_nav_link:hover {
+  color: #563d7c !important;
+}
+
+.incorrect {
+  color: red !important;
+  font-size: 25px !important;
+}
+
+.correct {
+  color: green !important;
+  font-size: 25px !important;
 }
