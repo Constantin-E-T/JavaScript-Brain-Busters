@@ -1,5 +1,10 @@
 # JavaScript Quiz
 
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+![HTML5](https://img.shields.io/badge/HTML5-32.4%25-orange)
+![JavaScript](https://img.shields.io/badge/JavaScript-59.7.5%25-Green)
+![CSS](https://img.shields.io/badge/CSS-7.9.6%25-blueviolet)
+
 A fun and interactive way to test your JavaScript knowledge! This app features a variety of multiple-choice questions on topics such as closures, let vs. var, and hoisting. The top 10 scores will be displayed on a leader board and stored in local storage so you can track your progress over time
 
 ## Project Link/Deployed Application 👇
