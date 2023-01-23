@@ -169,7 +169,19 @@ function endQuiz() {
             form.classList.remove("hide");
             let submit = document.getElementById("submit");
             submit.addEventListener("click", function() {
-                let initials = document.getElementById("initials").value;
+                let initials = document.getElementById("initials").value.toUpperCase();
+                 // check if input is between 1 and 3 characters long
+                if (initials.length < 1 || initials.length > 3) {
+                    alert("Please enter your initials (1-3 characters)");
+                    return;
+                }
+
+                // check if input only contains letters
+                if (!/^[a-zA-Z]+$/.test(initials)) {
+                    alert("Initials can only contain letters.");
+                    return;
+                }
+
                 if(localStorage){
                     localStorage.setItem(initials, score);
                 }
