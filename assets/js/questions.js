@@ -27,7 +27,32 @@ let questionsArray = [
        question: "What is hoisting in JavaScript?",
        choices: ["The process of moving variable and function declarations to the top of their scope", "The process of moving variable and function expressions to the bottom of their scope", "The process of creating a new variable or function", "The process of removing unnecessary variables and functions"],
        answer: "The process of moving variable and function declarations to the top of their scope"
-   }
+   },
+   {
+    question: "What is the difference between a null value and an undefined value in JavaScript?",
+    choices: ["null represents an intentional absence of any object value, undefined represents an uninitialized variable", "null represents an uninitialized variable, undefined represents an intentional absence of any object value", "null and undefined are the same thing", "null can be used in an if statement, undefined cannot"],
+    answer: "null represents an intentional absence of any object value, undefined represents an uninitialized variable"
+    },
+    {
+    question: "What is the difference between a JavaScript array and an object?",
+    choices: ["Arrays are ordered lists of values, objects are unordered collections of key-value pairs", "Arrays are unordered collections of key-value pairs, objects are ordered lists of values", "Arrays can only contain numbers, objects can contain any data type", "Arrays can have methods, objects cannot"],
+    answer: "Arrays are ordered lists of values, objects are unordered collections of key-value pairs"
+    },
+    {
+    question: "What is the difference between a for-in loop and a for-of loop in JavaScript?",
+    choices: ["for-in loops through the keys of an object, for-of loops through the values of an array", "for-in loops through the values of an array, for-of loops through the keys of an object", "for-in loops through the properties of an object, for-of loops through the elements of an array", "for-in loops through the elements of an array, for-of loops through the properties of an object"],
+    answer: "for-in loops through the keys of an object, for-of loops through the values of an array"
+    },
+    {
+    question: "What is the difference between a synchronous and asynchronous function in JavaScript?",
+    choices: ["Synchronous functions execute one line of code at a time, asynchronous functions execute multiple lines of code at once", "Synchronous functions can be paused, asynchronous functions cannot", "Asynchronous functions return a promise, synchronous functions do not", "Synchronous functions are faster than asynchronous functions"],
+    answer: "Synchronous functions execute one line of code at a time, asynchronous functions execute multiple lines of code at once"
+    },
+    {
+    question: "What is the difference between the Array.prototype.map() and Array.prototype.forEach() methods in JavaScript?",
+    choices: ["map() returns a new array with the results of the callback function, forEach() modifies the original array", "forEach() returns a new array with the results of the callback function, map() modifies the original array", "map() can only be used on arrays, forEach() can be used on any data type", "forEach() can only be used on arrays, map() can be used on any data type"],
+    answer: "map() returns a new array with the results of the callback function, forEach() modifies the original array"
+    }        
 ];
 
 
