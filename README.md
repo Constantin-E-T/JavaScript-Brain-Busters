@@ -26,8 +26,6 @@ A fun and interactive way to test your JavaScript knowledge! This app features a
 
 * A timer that keeps track of how long it takes to complete the quiz.
 
-* A scoring system that keeps track of the number of correct answers.
-
 * A high scores page that shows the top 10 scores and allows you to clear the scores.
 
 ## Screenshots
