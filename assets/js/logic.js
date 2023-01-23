@@ -164,6 +164,10 @@ function endQuiz() {
         // This is a function that is being called after the user clicks on an answer. It is clearing
         // the feedback, hiding the feedback, clearing the question choices, incrementing the current
         // question index, and then calling the showQuestion function. 
+        document.getElementById("cancel").addEventListener("click", function(){
+            window.location = "index.html";
+        });
+        
         setTimeout(function() {
             let form = document.getElementById("end-screen");
             form.classList.remove("hide");
