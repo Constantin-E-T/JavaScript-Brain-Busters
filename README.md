@@ -1,4 +1,4 @@
-# JavaScript Quiz
+# JavaScript Brain Busters
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 ![HTML5](https://img.shields.io/badge/HTML5-32.4%25-orange)
