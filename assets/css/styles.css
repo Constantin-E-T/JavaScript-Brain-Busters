@@ -127,3 +127,16 @@ li:nth-child(odd) {
   color: green !important;
   font-size: 25px !important;
 }
+
+/* media queries */
+@media screen and (max-width: 768px) {
+    #question-title {
+        font-size: 30px !important;
+    }
+    .choice-btn {
+        font-size: 15px !important;
+        line-height: 2 !important;
+        margin-top: 20px !important;
+    }
+}
+/* end of media query */
